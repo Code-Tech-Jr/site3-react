@@ -13,8 +13,8 @@ function LandingPage(){
         <>
             <Hero></Hero>
             <Introduction></Introduction>
-            <Benefits></Benefits>
             <Brief></Brief>
+            <Benefits></Benefits>
             <Form></Form>
             <Footer></Footer>
         </>
