@@ -1,4 +1,4 @@
-import global from "../../assets/styles/global.module.css";
+//import global from "../../assets/styles/global.module.css";
 import styles from "./Introduction.module.css"
 
 function Introduction(){
