@@ -1,5 +1,5 @@
 .section-introduction{
-  background-image: url(./assets/images/introduction-background-mobile.svg);
+  background-image: url("../../assets/images/introduction-background-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11,7 +11,7 @@
   text-align: center;
 
   min-height: 40vh;
-  padding: 3em 1.5em;  
+  padding: var(--pad-mobile-x) var(--pad-mobile-y);
 }
 
 h1{
@@ -39,17 +39,15 @@ h1{
 ==========*/
 @media (min-width: 1280px){
   .section-introduction{
-    background-image: url(./assets/images/introduction-background-desktop.svg);
+    background-image: url("../../assets/images/introduction-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
     justify-content: flex-start;
     align-items: center;
     text-align: left;
-    
     min-height: 70vh;
-    padding: 5em 10em;
+    padding: var(--pad-desktop-x) var(--pad-desktop-y);
   }
 
   .introduction-text{
