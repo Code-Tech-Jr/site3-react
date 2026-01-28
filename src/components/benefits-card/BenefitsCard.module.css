@@ -1,5 +1,5 @@
 .card-container {
-    width: 300px;
+    width: 350px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -44,11 +44,13 @@
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 8px;
-    width:250px;
+    width:300px;
 }
 
 .card-text {
     font-size: 18px;
+    text-align: center;
+    width:320px;
 }
 
 @media (min-width: 768px) {
@@ -63,5 +65,15 @@
         object-fit: contain; 
         top: -110px; 
         left: 8px;
+    }
+
+    .card-title {
+        width:400px;
+        font-size:28px;
+    }
+
+    .card-text {
+        width: 350px;
+        font-size:22px;
     }
 }
