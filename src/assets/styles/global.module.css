@@ -6,7 +6,6 @@
   --pad-desktop-y: 100px;
   --pad-desktop-x: 80px;
   
-  /* Fontes Base */
   --font-main: 'Inter', sans-serif;
 }
 
@@ -24,7 +23,7 @@ html {
 body {
   width: 100%;
   font-family: var(--font-main);
-  background-color: #000; 
+  background-color: #FFFFFF;
 }
 
 
