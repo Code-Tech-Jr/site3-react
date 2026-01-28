@@ -1,0 +1,132 @@
+.section-brief {
+  background:url("../../assets/images/background-brief-mobile.svg");
+  width: 100%;
+  padding: 3em 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.brief-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.brief-text {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  max-width: 600px;
+}
+
+.brief-text strong {
+  font-weight: 700;
+}
+
+.container-videos-brief {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  align-items: center;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.video img {
+  width: 100%;
+  max-width: 266px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.video img:hover {
+  transform: scale(1.05);
+}
+
+
+@media (min-width: 1280px) {
+.section-brief {
+    background-image: url("../../assets/images/backgroud-brief-desktop.svg");
+    background-size:cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 150vh;
+    width: 100%;
+  }
+
+  .brief-text {
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 988px;
+    width: 100%;
+  }
+
+  .desktop-only {
+    display: flex !important; 
+  }
+  
+  div.desktop-only {
+    display: block !important;
+  }
+
+  .container-videos-brief {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 988px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .video-principal {
+    grid-column: 1 / span 3;
+    justify-self: center;
+    width: 100%;
+    max-width: 988px;
+  }
+
+  .video-principal img {
+    width: 988px;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+
+  .video.menores img {
+    width: 340px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 40px;
+  }
+
+  .brief-button {
+    grid-column: 1 / span 3;
+    justify-self: center;
+    width: 100%;
+    max-width: 455px; 
+    height: 83px;
+    background: #735CFF;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,162 @@
+.section-form {
+  width: 100%;
+  background-color: #13378C;
+}
+
+.container-form {
+  padding: 3em 1.5em;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.container-text-form {
+  text-align: center;
+  color: #fff;
+}
+
+.form-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.form-subtitle {
+  font-weight: 350;
+  font-size: 14px;
+  margin-top: 24px;
+  color: #fff;
+}
+
+.form-text {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 14px;
+}
+
+.container-forms-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.input-forms {
+  width: 100%;
+  height: 45px;
+  border-radius: 50px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+}
+
+.radio-button-form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.radio-button-form label {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.botao-forms {
+  height: 45px;
+  background: #735CFF;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.botao-forms:hover{
+    background-color: #30276d;
+}
+
+@media (min-width: 1280px) {
+  .container-form {
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    gap: 12em;
+    padding: 100px 10%;
+    text-align: left;
+    min-height: 50vh;
+    background-image: url("../../assets/images/background-forms-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 101%;
+    border: none;
+    outline: none;
+    margin: -1px 0;
+    background-color: #13378C;
+  }
+
+  .column-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    /* Garante que o texto dentro da coluna acompanhe o alinhamento */
+    text-align: center; 
+  }
+
+  .form-title { 
+    font-family: 'Inter';
+    font-size: 50px;
+    line-height: 61px;
+    width: 554px;
+  }
+
+  .form-subtitle { 
+    font-family: 'Inter';
+    font-weight: 350;
+    font-size: 30px;
+    line-height: 36px;
+    width: 554px;
+    margin-top: 24px;
+  }
+
+  .form-text { 
+    margin-top: 20px; 
+    font-size: 18px; 
+    width: 554px;
+  }
+
+  .container-forms-form {
+    max-width: 456px;
+  }
+
+  .radio-button-form input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .radio-button-form label {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .botao-forms {
+    background: #735CFF;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 455px;
+    height: 83px;
+    font-size: 24px;
+    letter-spacing: 0.14em;
+  }
+}

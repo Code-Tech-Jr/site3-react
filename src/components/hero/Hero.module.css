@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Cataraman";
+    src: url("../../Font/Catamaran.ttf") format("truetype");
+}
+
+.hero {
+    position: relative;
+    background: url('../../assets/styles/back-phone.png') no-repeat center center / cover;
+    text-align: center;
+}
+
+.hero .fundo-hero {
+    position: absolute;
+    inset: 0;
+    background: url('../../assets/styles/fundo.png') no-repeat center center / cover;
+    z-index: 3;
+    margin-left: 15px;
+}
+
+.hero .logo-hero {
+    position: relative;
+    z-index: 2;
+}
+
+.hero .logo-hero-desktop {
+    display: none;
+}
+
+.hero .content-hero {
+    position: relative;
+    z-index: 4;
+}
+
+.hero .title-hero {
+    font-family: "Cataraman", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+    line-height: 1.07em;
+    margin: -40px auto 0;
+    max-width: 250px;
+}
+
+.hero .subtitle-hero {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin: 6px 0;
+}
+
+.hero .description-hero {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.hero .button-hero {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 0 20px;
+    padding: 3px 10px;
+    background-color: #735CFF;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero .date-hero {
+    display: none;
+}
+
+@media (min-width: 1280px) {
+
+    .hero {
+        background: url('../../assets/styles/back-desktop.png') no-repeat center center / cover;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .hero .fundo-hero {
+        display: none;
+    }
+
+    .hero .logo-hero {
+        display: none;
+    }
+
+    .hero .content-hero {
+        position: relative;
+        width: 100%;
+        max-width: 1440px;
+        padding-left: 90px;
+    }
+
+    .hero .content-hero .fundo-hero-desktop {
+        position: absolute;
+        bottom: 30px;
+        right: 60px;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/styles/fundo-desktop.png');
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        z-index: 3;
+        pointer-events: none;
+    }
+
+    .hero .content-hero .logo-hero-desktop {
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 435px;
+        z-index: 2;
+    }
+
+    .hero .content-hero .title-hero {
+        font-size: 70px;
+        margin: 240px 0 0 0;
+        max-width: 610px;
+    }
+
+    .hero .content-hero .subtitle-hero {
+        font-size: 30px;
+        margin: 40px 0;
+        text-align: left;
+    }
+
+    .hero .content-hero .description-hero {
+        font-size: 30px;
+        max-width: 487px;
+        margin: 0 0 70px 0;
+    }
+
+    .hero .content-hero .button-hero {
+        font-size: 30px;
+        padding: 24px 64px;
+        border: 3px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .hero .content-hero .date-hero {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 0 0 120px 0;
+        padding-left: 55px;
+    }
+
+    .hero .content-hero .date-hero p {
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .hero .content-hero .title-hero,
+    .hero .content-hero .subtitle-hero,
+    .hero .content-hero .description-hero,
+    .hero .content-hero .button-hero,
+    .hero .content-hero .date-hero {
+        position: relative;
+        z-index: 4;
+    }
+}
