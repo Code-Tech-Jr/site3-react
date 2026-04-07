@@ -1,4 +1,3 @@
-import global from "../../assets/styles/global.module.css";
 import styles from "./Brief.module.css";
 
 import thumbvideo1 from "../../assets/images/thumbVideo1.svg"

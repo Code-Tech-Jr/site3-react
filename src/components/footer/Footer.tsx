@@ -1,4 +1,3 @@
-import global from "../../assets/styles/global.module.css";
 import styles from "./Footer.module.css";
 import { useEffect, useState } from "react";
 

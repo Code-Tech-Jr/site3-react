@@ -1,4 +1,3 @@
-import global from "../../assets/styles/global.module.css";
 import styles from "./Hero.module.css";
 import logoPhone from "../../assets/styles/logo-phone.png";
 import logoDesktop from "../../assets/styles/logo-desktop.png";

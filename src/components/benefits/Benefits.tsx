@@ -1,4 +1,3 @@
-import global from "../../assets/styles/global.module.css"
 import styles from "./Benefits.module.css"
 import BenefitsCard from "../benefits-card/BenefitsCard.tsx"
 

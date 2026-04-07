@@ -1,4 +1,3 @@
-import global from "../../assets/styles/global.module.css"
 import styles from "./BenefitsCard.module.css"
 
 interface CardProps {

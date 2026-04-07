@@ -1,6 +1,3 @@
-import global from "../../assets/styles/global.module.css"
-import styles from "./LandingPage.module.css"
-
 import Benefits from "../../components/benefits/Benefits.tsx"
 import Brief from "../../components/brief/Brief.tsx"
 import Footer from "../../components/footer/Footer.tsx"
